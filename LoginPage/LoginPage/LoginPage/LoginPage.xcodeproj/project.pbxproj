@@ -15,6 +15,8 @@
 		AC6B4AF72795808A0072B929 /* LoginPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B4AF62795808A0072B929 /* LoginPageUITests.swift */; };
 		AC6B4B05279581BC0072B929 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B4B04279581BC0072B929 /* SwiftUIView.swift */; };
 		AC6B4B072795A89A0072B929 /* MMHlogos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B4B062795A89A0072B929 /* MMHlogos.swift */; };
+		ACAD6AAD2799B7E900494708 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD6AAC2799B7E900494708 /* CardView.swift */; };
+		ACAD6AB1279AADB500494708 /* DropdownUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD6AB0279AADB500494708 /* DropdownUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AC6B4AF82795808A0072B929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC6B4B04279581BC0072B929 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		AC6B4B062795A89A0072B929 /* MMHlogos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMHlogos.swift; sourceTree = "<group>"; };
+		ACAD6AAC2799B7E900494708 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ACAD6AB0279AADB500494708 /* DropdownUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				AC6B4AD9279580880072B929 /* LoginPageApp.swift */,
 				AC6B4B04279581BC0072B929 /* SwiftUIView.swift */,
+				ACAD6AB0279AADB500494708 /* DropdownUI.swift */,
+				ACAD6AAC2799B7E900494708 /* CardView.swift */,
 				AC6B4ADB279580880072B929 /* ContentView.swift */,
 				AC6B4B062795A89A0072B929 /* MMHlogos.swift */,
 				AC6B4ADD2795808A0072B929 /* Assets.xcassets */,
@@ -269,6 +275,8 @@
 				AC6B4ADA279580880072B929 /* LoginPageApp.swift in Sources */,
 				AC6B4B05279581BC0072B929 /* SwiftUIView.swift in Sources */,
 				AC6B4B072795A89A0072B929 /* MMHlogos.swift in Sources */,
+				ACAD6AB1279AADB500494708 /* DropdownUI.swift in Sources */,
+				ACAD6AAD2799B7E900494708 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
