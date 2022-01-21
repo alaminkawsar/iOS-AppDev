@@ -16,6 +16,7 @@ struct ContentView: View {
                         Spacer()
                         MMHlogos()
                         Spacer()
+                        Spacer()
                         SwiftUIView()
                         Spacer()
                             .padding()                    }

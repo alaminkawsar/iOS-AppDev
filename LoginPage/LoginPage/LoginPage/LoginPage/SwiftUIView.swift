@@ -20,31 +20,27 @@ struct SwiftUIView: View {
             VStack{
                 Text("Sign In")
                     .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                Spacer()
-                Spacer()
-                /*
-                HStack{
-                    TextField("Emma",text: $dropdown)
-                        .frame(width: 280, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-
-                }
- */
- 
-                DropdownUI()
-   
-                Spacer()
                 
+                Spacer()
+                Spacer()
+                DropdownUI()
+                Spacer()
+                HStack{
                 TextField("Email Adress", text: $email_adress)
-                    .frame(width: 280, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                    .padding(.all, 12)
+                    .border(Color.black)
+                    .keyboardType(.emailAddress)
+                    .autocapitalization(.none)
+                }
         
                 
                 //Spacer()
                 SecureField("Password", text: $password)
-                    .frame(width: 280, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .padding(.all, 12)
                     .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                 //Spacer()
+                
+    
                 Group{
                     Button(action:{}){
                         Text("Sign In")
